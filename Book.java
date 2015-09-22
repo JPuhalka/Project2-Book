@@ -22,6 +22,7 @@ class Book
         title = bookTitle;
     }
     
+    //Question 2.83
     public String getAuthor()
     {
         return author;
@@ -31,6 +32,16 @@ class Book
     {
         return title;
     }
+    
+    //Question 2.84
+    public void printAuthor()
+    {
+        System.out.println(author);
+    }
+    
+    public void printTitle()
+    {
+        System.out.println(title);
+    }
 
-    // Add the methods here ...
 }
