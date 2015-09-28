@@ -23,7 +23,7 @@ class Book
         author = bookAuthor;
         title = bookTitle;
         pages = bookPages;
-        refNumber = " ";
+        refNumber = (" ");
     }
     
     //Question 2.83
@@ -65,10 +65,16 @@ class Book
         System.out.println(title);
     }
     
-    //Question 2.86
-    public void printDetails()
+    //Question 2.86 & 2.87
     {
-        System.out.println("Title: " + title + ",  Author: " + author + ",  Pages: " + pages + ".");
+        System.out.println("Title: " + title);
+        System.out.println("Author: " + author);
+        System.out.println("Pages: " + pages);
+        
+        if (refNumber.length() > 0)
+            System.out.println("Reference No. " +refNumber);
+        else
+            System.out.println("Reference No. ZZZ");
     }
 
 }
