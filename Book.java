@@ -51,7 +51,10 @@ class Book
     
     public void setRefNumber(String ref)
     {
-        refNumber = ref;
+        if (ref.length() < 3)
+            System.out.println("Error: Reference Number must contain at least 3 digits.");
+        else
+            refNumber = ref;
     }
      
     //Question 2.84
