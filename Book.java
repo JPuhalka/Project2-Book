@@ -3,8 +3,8 @@
  * This might form part of a larger application such
  * as a library system, for instance.
  *
- * @author (Insert your name here.)
- * @version (Insert today's date here.)
+ * @author Jennifer Puhalka
+ * @version September 21, 2015
  */
 class Book
 {
@@ -50,6 +50,12 @@ class Book
     public void printTitle()
     {
         System.out.println(title);
+    }
+    
+    //Question 2.86
+    public void printDetails()
+    {
+        System.out.println("Title: " + title + ",  Author: " + author + ",  Pages: " + pages + ".");
     }
 
 }
