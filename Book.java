@@ -14,6 +14,7 @@ class Book
     private String refNumber;
     private int pages = 0;
     private int borrowed = 0;
+    private boolean courseText;
 
     /**
      * Set the author and title fields when this object
